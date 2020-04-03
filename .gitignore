@@ -1,0 +1,34 @@
+#backend
+/backend/node_modules
+/backend/tests
+
+# frontend-dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# frontend-misc
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+
+#mmobile
+/mobile/node_modules/**/*
+/mobile/.expo/*
+/mobile/npm-debug.*
+/mobile/*.jks
+/mobile/*.p8
+/mobile/*.p12
+/mobile/*.key
+/mobile/*.mobileprovision
+/mobile/*.orig.*
+/mobile/web-build/
+/mobile/web-report/
+
+# macOS
+/mobile/.DS_Store
